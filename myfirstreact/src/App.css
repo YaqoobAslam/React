@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+   
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+  border-radius: 4px;
+  transition: 0.3s all; 
+}
+ input {
+       margin: 15px;
+       padding: 10px;
+       /* width: 300px; */
+       width: 20%;
+
+   }
+   button {
+     color: '#red';
+     width: 22%;
+     margin: 10px;
+     padding: 12px;
+     
+     color: white;
+     background-color: #009688;
+
+
+   }
+
+   title {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   #user{
+     text-align: center;
+     font-family: "Trebuchet MS",Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     border: 3px solid #009688;
+     width: 100%;
+   }
+   #user td, #users th{
+     border: 1px solid rgb(221, 221, 221);
+     padding: 8px;
+   }
+   
+   #user th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: center;
+     background-color: #009688;
+     color: white;
+   }
+   
+   #user tr:nth-child(even) {background-color: #f2f2f2;}
+
+   #user tr:hover {background-color: #ddd;}
+
+
+
+
+
+   /* style={{color: 'red',width: 300,  marginTop: 10, padding: 10}} */
+   /* button{
+       color: 'red';
+       width: 300;
+       margin: 10;
+       padding: 10
+      } */
+/* .field:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+} */
+
+/* .field {
+  width: 100%;
+  height: 56px;
+ 
+  position: relative;
+  text-align: center;
+  padding: 40px;
+  transition: 0.3s all;
+  
+} */
+
+/* .field.focussed input  {
+  top: 4px;
+  opacity: 1;
+  color: #71af8c;
+} */
+/* .field.locked {
+ pointer-events: none;
+}
+.field input {
+  width: 100%;
+  height: 56px;
+  position: relative;
+  padding: 0px 16px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  color: #282828;
+  outline: none;
+  box-shadow: 0px 4px 20px 0px transparent;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+  -webkit-appearance: none;
+} */

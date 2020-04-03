@@ -7,7 +7,7 @@ export class Menu extends Component {
 
     this.state = {};
   }
-  //-----------------------------------------------------------------------------------------------
+
   render() {
     const menu = this.props.dishes.map(dish => {
       return (
@@ -25,7 +25,7 @@ export class Menu extends Component {
       );
     });
 
-    //--------------------------------------------------------------------------------------------
+  
 
     return (
       <div className="container">

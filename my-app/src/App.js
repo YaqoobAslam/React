@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from "./components/MenuComponent";
 import { DISHES } from "./shared/dishes";
 import "./App.css";
@@ -8,17 +9,23 @@ class App extends Component {
     super(props);
 
     this.state = {
-      Dishes: DISHES
+      dishes: DISHES
     };
   }
 
   render() {
     return (
       <div>
-        <Menu Dishes={this.state.Dishes}></Menu>
+        <Navbar dark color="primary">
+          <div className="container">
+            <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
+          </div>
+        </Navbar>
+        <Menu ishes={this.state.dishes}></Menu>
       </div>
     );
   }
 }
 
 export default App;
+

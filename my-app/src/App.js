@@ -21,7 +21,7 @@ class App extends Component {
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
           </div>
         </Navbar>
-        <Menu ishes={this.state.dishes}></Menu>
+        <Menu dishes={this.state.dishes}></Menu>
       </div>
     );
   }

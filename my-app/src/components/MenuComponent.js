@@ -3,12 +3,10 @@ import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
 export class Menu extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-   
-    };
+      console.log('Menu Component constructor Invoked')
   }
-  
+
+
   // renderDish(dish) {
   //   if (dish != null) {
   //     return (
